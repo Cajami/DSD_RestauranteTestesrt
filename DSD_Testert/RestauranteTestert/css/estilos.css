@@ -1,0 +1,85 @@
+﻿body {
+    margin-bottom:50px;
+}
+
+.tituloCabecera {
+    font-size: 40px;
+    font-family: 'Mogra', cursive;
+}
+
+.cabecera {
+    background-color: #0f4663;
+    color: wheat;
+}
+
+.logo {
+    width: 119px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.margen-top-10 {
+    margin-top: 10px;
+}
+
+.margen-top-15 {
+    margin-top: 15px;
+}
+
+.margen-top-20 {
+    margin-top: 20px;
+}
+
+.margen-top-25 {
+    margin-top: 25px;
+}
+
+.margen-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margen-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.margen-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margen-bottom-25 {
+    margin-bottom: 25px;
+}
+/*
+    =====
+    MENU
+    =====
+*/
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+    ul.horizontal li {
+        float: left;
+    }
+
+ul.gray {
+    background-color: #f3f3f3;
+}
+
+    ul.gray li a {
+        display: block;
+        color: #171414;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        ul.gray li a.active {
+            color: white;
+            background-color: #008CBA;
+        }
